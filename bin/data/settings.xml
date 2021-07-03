@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<group>
+	<vSync>1</vSync>
+	<port>4040</port>
+	<new_player_width>720</new_player_width>
+	<new_player_height>480</new_player_height>
+	<save_on_exit>0</save_on_exit>
+	<save_layout_on_exit>1</save_layout_on_exit>
+</group>

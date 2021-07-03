@@ -1,0 +1,22 @@
+<SESSION>
+    <PLAYER>
+        <WIDTH>720</WIDTH>
+        <HEIGHT>480</HEIGHT>
+        <CORNER>
+            <X>232.000000000</X>
+            <Y>186.000000000</Y>
+        </CORNER>
+        <CORNER>
+            <X>952.000000000</X>
+            <Y>186.000000000</Y>
+        </CORNER>
+        <CORNER>
+            <X>952.000000000</X>
+            <Y>666.000000000</Y>
+        </CORNER>
+        <CORNER>
+            <X>232.000000000</X>
+            <Y>666.000000000</Y>
+        </CORNER>
+    </PLAYER>
+</SESSION>
