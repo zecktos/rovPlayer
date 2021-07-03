@@ -1,8 +1,8 @@
 # rovPlayer - Remote OSC Video Player 
 
-build with openframeworks verison `0.11`
-only tested on linux
-support for basic mapping and shader
+build with openframeworks verison `0.11`  
+only tested on linux  
+support for basic mapping and shader  
 
 **keyboard controls**
 press `e` to enter and leave edit mode
