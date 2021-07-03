@@ -4,14 +4,14 @@ build with openframeworks verison `0.11`
 only tested on linux  
 support for basic mapping and shader  
 
-**keyboard controls**
-press `e` to enter and leave edit mode
-press `a` to add a new player (works only in edit mode)
-press `R` to remove the last added player  (works only in edit mode)
-press `f` to enter and leave fullscreen
+## keyboard controls
+press `e` to enter and leave edit mode  
+press `a` to add a new player (works only in edit mode)  
+press `R` to remove the last added player  (works only in edit mode)  
+press `f` to enter and leave fullscreen  
 
 
-**OSC controls**
+## OSC controls
 |address   |   arguments 
 | --------------|:-------------
 | toggle fullscren
@@ -31,7 +31,7 @@ press `f` to enter and leave fullscreen
 | set surface position
 | `/setPosition`    | `int(PLAYER) int(X_POS) int(Y_POS)`
 | set surface corner position | corner numbers are orderd counte clockwise starting with 0 for the top left corner
-| `setCorner`       | `int(PLAYER) int(CORNER) int(X_POS) int(Y_POS)`
+| `/setCorner`       | `int(PLAYER) int(CORNER) int(X_POS) int(Y_POS)`
 | load first shader 
 | `/loadShaderA`    | `int(PLAYER) string(PATH)`
 | enable or disable first shader
@@ -43,5 +43,5 @@ press `f` to enter and leave fullscreen
 | enable or disable second shader
 | `/enableShaderB`  | `int(PLAYER) bool(STATE)`
 | pass values to second shader | can be up to 4 values 
-| `setShaderB`      | `float(VAL_A) float(VAL_D) float(VAL_C) float(VAL_D)`
+| `/setShaderB`      | `float(VAL_A) float(VAL_D) float(VAL_C) float(VAL_D)`
 
